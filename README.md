@@ -9,7 +9,7 @@
     sysctl fs.file-max
     ulimit -n
     ulimit -u
-## Setup PostgreSQL 10 Database For SonarQube
+## Setup PostgreSQL15 Database For SonarQube
 
 ```bash
 yum install postgresql15 postgresql15-server -y
