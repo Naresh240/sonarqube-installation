@@ -10,9 +10,12 @@
     ulimit -n
     ulimit -u
 ## Setup PostgreSQL 10 Database For SonarQube
-    amazon-linux-extras install postgresql10 epel -y
-    yum install -y postgresql-server postgresql-devel
-    /usr/bin/postgresql-setup --initdb
+
+```bash
+yum install postgresql15 postgresql15-server -y
+postgresql-setup --initdb
+```
+
 Need to change config file as shown in below
     
     vi /var/lib/pgsql/data/pg_hba.conf
