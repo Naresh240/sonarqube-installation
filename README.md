@@ -76,10 +76,10 @@ Open /opt/sonarqube/conf/sonar.properties file
 
 ```
 sudo vi /opt/sonarqube/conf/sonar.properties
+```
 ![image](https://user-images.githubusercontent.com/68885738/90953687-7acc0700-e48b-11ea-94f9-4b32f8f170b0.png)
 ![image](https://user-images.githubusercontent.com/68885738/90953736-c1b9fc80-e48b-11ea-88f9-2629c85fdf56.png)
 ![image](https://user-images.githubusercontent.com/68885738/90953772-05146b00-e48c-11ea-8dab-143be09d878b.png)
-```
 
 Switch to ec2-user and navigate to the start script directory
 
