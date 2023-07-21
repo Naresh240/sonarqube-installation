@@ -23,8 +23,10 @@ postgresql-setup --initdb
 ```
 
 Need to change config file as shown in below
-    
+
+```bash
 vi /var/lib/pgsql/data/pg_hba.conf
+```
 
 Replace Method name "ident" to "md5"
 
