@@ -1,9 +1,9 @@
 # sonarqube-installation
 
-## Step 1: Install java 17
+## Step 1: Install java 21
 
 ```bash
-yum install java-17-amazon-corretto -y
+yum install java-21-amazon-corretto -y
 ```
 
 ## Step 2: Login as root and execute the following commands
