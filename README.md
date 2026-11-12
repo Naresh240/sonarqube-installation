@@ -68,9 +68,9 @@ Download the latest sonarqube installation file to /opt folder. You can get the 
 
  ```bash
 cd /opt
-wget https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-9.9.0.65466.zip
-unzip sonarqube-9.9.0.65466.zip
-mv sonarqube-9.9.0.65466 sonarqube
+wget https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-26.9.0.129388.zip
+unzip sonarqube-26.9.0.129388.zip
+mv sonarqube-26.9.0.129388 sonarqube
 chown -R ec2-user:ec2-user sonarqube
 ```
 	
@@ -88,6 +88,7 @@ Switch to ec2-user and navigate to the start script directory
 ```bash
 su - ec2-user
 cd /opt/sonarqube/bin/linux-x86-64
+sudo chmod +x sonar.sh
 ./sonar.sh start
 ./sonar.sh status
 ```
